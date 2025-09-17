@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+
+# Dependency directories (if not using Go modules)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go build artifacts
+bin/
+obj/
+*.o
+*.a
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# Linux system files
+*.swp
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
